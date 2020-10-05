@@ -76,7 +76,6 @@
 // The web views
 // Depending on the version of iOS, one of these will be set
 @property (nonatomic, strong) WKWebView *wkWebView;
-@property (nonatomic, strong) UIWebView *uiWebView;
 
 - (id)initWithConfiguration:(WKWebViewConfiguration *)configuration NS_AVAILABLE_IOS(8_0);
 
